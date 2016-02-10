@@ -13,19 +13,8 @@
 
 
 <h2> Adicione um comentário</h2>
-<%= form_for([@article, @article.comments.build]) do |f| %>
-  <p>
-    <b><%= f.label :Comentarista %></b><br>
-    <%= f.text_field :commenter %>
-  </p>
-  <p>
-    <b><%= f.label :Comentário %></b><br>
-    <%= f.text_area :body %>
-  </p>
-  <p>
-    <%= f.submit "Envie seu comentário"%>
-  </p>
-<% end %>
+<%= render 'comments/form' %>
+
 
 <%= link_to 'Edite', edit_article_path(@article) %> |
 <% link_to 'Back', articles_path %>
