@@ -1,18 +1,18 @@
 <p>
-  <strong>Título:</strong>
+  <strong class="text3">Título:</strong>
   <%= @article.title %>
 </p>
 
 <p>
-  <strong>Texto:</strong>
+  <strong class="text3">Texto:</strong>
   <%= @article.text %>
 </p>
 
-<h2>Comentários</h2>
+<h2 class="text2">Comentários:</h2>
 <%= render @article.comments %>
 
 
-<h2> Adicione um comentário</h2>
+<h2 class="text2"> Adicione um comentário:</h2>
 <%= render 'comments/form' %>
 
 

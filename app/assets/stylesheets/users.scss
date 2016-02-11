@@ -1,3 +1,79 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: #4A708B;
+}
+
+.field {
+  margin: 0px 20px;
+  font-weight: bold;
+  font-size: 2em;
+  color: #7FFF00;
+
+}
+.box {
+  position: relative;
+  width: 155px;
+  height: 20px;
+  left: 330px;
+  top: -42px;
+  margin: 2px;
+}
+.text1 {
+  margin: 1% 60px;
+  width: 555px;
+  font-size: 3em;
+  color: #FFFF00;
+}
+.text2 {
+  margin: 1% 60px;
+  width: 555px;
+  font-size: 1.4em;
+  color: #FFFF00;
+}
+.text3 {
+  text-shadow: 1px 0px 0px red,
+                -1px 0px 0px red,
+                 0px 1px 0px red,
+                 0px -1px 0px red;
+  margin: 1% 6px;
+  width: 555px;
+  font-size: 1.3em;
+  color: #140714;
+}
+.actions {
+  margin: 0px 160px;
+}
+.table1 {
+   margin: 1% 60px;
+  width: 750px;
+  font-size: 2em;
+  color: #FFFF00;
+}
+.tr1 {
+    margin: 1px 6px;
+  width: 355px;
+  font-size: 1.4em;
+  color: #ADFF2F;
+}
+.td2 {
+    margin: 1px 6px;
+  width: 55px;
+  font-size: 0.7em;
+  color: #FFFF00;
+}
+.td4 {
+  margin: 50px 60px;
+  width: 555px;
+  font-size: 0.8em;
+  color: #FFFF00;
+}
+
+p {
+  margin: 1% 6px;
+  width: 250px;
+  font-size: 1.1em;
+  color: #ADFF2F;
+}
